@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@700&display=swap');
+
+img {
+    width: 85%;
+    padding: 60px;
+}
+
+.hidden {
+    opacity: 0;
+    display: none;
+}
+.search-container {
+    display: flex;
+    margin: 10px;
+    width: 80%;
+}
+input:focus {
+    border: 1px solid #22CBA8;
+    box-shadow: none!important;
+}
+.btn-search {
+    border: none;
+    padding-bottom: 10px 25px;
+    border-radius: 0 5px 5px 0;
+    background-color: #22CBA8;
+    color: #fff;
+    margin-left: -15px;
+    cursor: pointer;
+}
+.no-border {
+    border: none !important;
+}
+.flex-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 30px 15px;
+    color: #000000;
+    background: linear-gradient(to bottom, #f4f8c6, #8bccfa);
+    font-family: 'Nanum Myeongjo', serif;
+    font-weight:bolder;
+}
+
+.pokemon-card {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.pokemon-card:hover {
+    transform:scale(1.1);
+}
+
+.cp-text span {
+    font-size: 16px;
+}
+
+.img-container {
+    position: relative;
+    z-index: 2;
+    border-radius: 50%;
+    text-align: center;
+}
+.detail-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:100px 30px 60px;
+    border-radius: 10px;
+    background-color: #fff;
+    width: 100%;
+    margin-top: -150px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+.seperator {
+    border-color: #6EECB7 !important;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+.stats span.first {
+    border-right:1px solid #eee
+}
+
+.attributes-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    width: 100%;
+    text-transform: capitalize;
+}
+.cp-text {
+    padding-right: 10px;
+    border-right: 1px solid #eee;
+    margin: 0;
+}
+.cp-text:last-child {
+    border: none;
+}
+.player-data {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 15px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+    text-align: center;
+}
+.data-container p {
+    margin-bottom: 0;
+}
+
+#update_name, #update_candy_title{
+    text-transform: capitalize;
+}
